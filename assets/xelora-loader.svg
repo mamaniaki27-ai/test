@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="48" viewBox="0 0 210 48" fill="none">
+  <rect x="1.2" y="4.2" width="39.6" height="39.6" rx="9" stroke="#7EE7FF" stroke-width="1.6"/>
+  <path d="M13 14 L29 34 M29 14 L13 34" stroke="#7EE7FF" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="13" cy="14" r="2.2" fill="#7EE7FF"/>
+  <circle cx="29" cy="14" r="2.2" fill="#7EE7FF"/>
+  <circle cx="13" cy="34" r="2.2" fill="#7EE7FF"/>
+  <circle cx="29" cy="34" r="2.2" fill="#7EE7FF"/>
+  <circle cx="21" cy="24" r="2.5" fill="#F4F7FB"/>
+  <text x="50" y="32" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="600">
+    <tspan fill="#F4F7FB">xelora </tspan><tspan fill="#7EE7FF">S</tspan>
+  </text>
+</svg>

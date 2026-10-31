@@ -1,0 +1,27 @@
+RewriteEngine On
+
+RewriteCond %{THE_REQUEST} /index\.html [NC]
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteCond %{THE_REQUEST} /portfolio/index\.html [NC]
+RewriteRule ^portfolio/index\.html$ /portfolio/ [R=301,L]
+RewriteCond %{THE_REQUEST} /reviews/index\.html [NC]
+RewriteRule ^reviews/index\.html$ /reviews/ [R=301,L]
+RewriteCond %{THE_REQUEST} /CritiQ/index\.html [NC]
+RewriteRule ^CritiQ/index\.html$ /CritiQ/ [R=301,L]
+RewriteCond %{THE_REQUEST} /Xelora%20Chronicle/index\.html [NC]
+RewriteRule ^Xelora%20Chronicle/index\.html$ /Xelora%20Chronicle/ [R=301,L]
+RewriteCond %{THE_REQUEST} /Vesting/index\.html [NC]
+RewriteRule ^Vesting/index\.html$ /Vesting/ [R=301,L]
+RewriteCond %{THE_REQUEST} /Next-gen%20multi-chain%20DEX/index\.html [NC]
+RewriteRule ^Next-gen%20multi-chain%20DEX/index\.html$ /Next-gen%20multi-chain%20DEX/ [R=301,L]
+RewriteCond %{THE_REQUEST} /Team/index\.html [NC]
+RewriteRule ^Team/index\.html$ /Team/ [R=301,L]
+RewriteCond %{THE_REQUEST} /Career/index\.html [NC]
+RewriteRule ^Career/index\.html$ /Career/ [R=301,L]
+
+# Remove 'index.html' from URLs
+RewriteCond %{REQUEST_FILENAME} /index\.html$
+RewriteRule ^(.*)index\.html$ /$1 [R=301,L]
+
+# Serve directory index.html when no file is specified
+DirectoryIndex index.html
